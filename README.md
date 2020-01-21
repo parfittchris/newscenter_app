@@ -8,7 +8,7 @@ News Center is a live look at how the current topics of the day are being covere
 ## Features
 Shows 15 top news article headlines from the front pages of top mainstream media sites. Clicking on each title will link the user to the actual article.
 
-![wire frame](https://github.com/parfittchris/)
+![wire frame](https://github.com/parfittchris/newscenter_app/blob/master/assets/news_center_homepage.png)
 
 ## Future Improvements
 * Add additional news sites for a more diverse comparison
