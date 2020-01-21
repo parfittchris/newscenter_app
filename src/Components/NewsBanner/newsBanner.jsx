@@ -15,7 +15,7 @@ class NewsBanner extends Component {
 
     componentDidMount() {
         axios
-            .get('http://newscenter-api.herokuapp.com/article/')
+            .get('https://newscenter-api.herokuapp.com/article/')
             .then(res => {
                 let articles = res.data;
                 articles = articles.filter(article => {
@@ -53,7 +53,6 @@ class NewsBanner extends Component {
     render() {
         const tableId = 'articleTable' + this.props.site;
         this.getArticles();
-        console.log(this.state.articles);
         return (
             <div className='news_banner'>
                 <h2>{this.props.site}</h2>
