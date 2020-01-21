@@ -6,6 +6,8 @@
     padding: 10px;
     text-align: center;
     margin: 3vh 1.5vw;
+    background-color: rgb(238, 233, 227);
+    color: #2C3E50;
 }
 
 
@@ -21,7 +23,8 @@ td {
 }
 
 td:hover {
-    background-color: blueviolet;
+    background-color: #2C3E50;
+    color: white;
 }
 
 
