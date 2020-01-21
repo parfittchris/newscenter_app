@@ -1,0 +1,27 @@
+.news_banner {
+    border: 2px solid rgb(54, 9, 54);
+    border-radius: 5px;
+    width: 30vw;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    margin: 3vh 1.5vw;
+}
+
+
+table {
+    border-spacing: 0 15px;
+}
+
+td {
+    border: 1px solid rgb(54, 9, 54);
+    border-radius: 2%;
+    padding: 2px;
+    cursor: pointer;
+}
+
+td:hover {
+    background-color: blueviolet;
+}
+
+
