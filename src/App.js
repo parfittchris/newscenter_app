@@ -10,11 +10,11 @@ function App() {
       <div className="articles_container">
         <NewsBanner site='FOX' />
         <NewsBanner site='CNN' />
-        <NewsBanner site='NYTimes' />
+        <NewsBanner site='NBC News' />
       </div>
       <div className="articles_container">
-        <NewsBanner site='Huffington Post' />
-        <NewsBanner site='NBC News' />
+        <NewsBanner site='NYTimes' />
+        {/* <NewsBanner site='Huffington Post' /> */}
       </div>
     </div>
   );

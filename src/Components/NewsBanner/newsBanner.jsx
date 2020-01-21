@@ -32,8 +32,8 @@ class NewsBanner extends Component {
     }
 
     routeChange(e) {
-        let path = e.target.getAttribute('href');
-        window.location.href = path;
+        const path = e.target.getAttribute('href');
+        window.open(path);
     };
 
     getArticles() {
@@ -53,7 +53,7 @@ class NewsBanner extends Component {
     render() {
         const tableId = 'articleTable' + this.props.site;
         this.getArticles();
-
+        console.log(this.state.articles);
         return (
             <div className='news_banner'>
                 <h2>{this.props.site}</h2>
