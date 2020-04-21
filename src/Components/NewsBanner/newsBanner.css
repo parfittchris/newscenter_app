@@ -1,30 +1,30 @@
 .news_banner {
-    border: 2px solid rgb(54, 9, 54);
+    background-color: #EDE9E3;
     border-radius: 5px;
-    width: 30vw;
     font-size: 18px;
+    max-width: 25%;
     padding: 10px;
     text-align: center;
     margin: 3vh 1.5vw;
-    background-color: rgb(238, 233, 227);
-    color: #2C3E50;
+    color: #2B3E50;
 }
-
 
 table {
     border-spacing: 0 15px;
 }
 
 td {
-    border: 1px solid rgb(54, 9, 54);
-    border-radius: 2%;
+    border: 2px solid #2B3E50;
+    border-radius: 5%;
     padding: 2px;
     cursor: pointer;
+    transition-duration: .25s;
 }
 
 td:hover {
-    background-color: #2C3E50;
-    color: white;
+    transform: scale(1.125);
+    color: #EDE9E3;
+    transition-duration: .25s;
+    background-color: #2B3E50;
 }
-
 

@@ -1,8 +1,95 @@
+* {
+    margin: 0;
+    margin-right: 5px;
+}
+
+.App {
+    background-color: #EDE9E3;
+    color: #2B3E50;
+}
+
 #app_header {
-    /* margin: 0 auto; */
+    margin: 0 auto;
     text-align: center;
 }
 
-.articles_container {
+.articlesContainer {
     display: flex;
 }
+
+.articlesSection {
+    background-color: #2B3E50;
+    width: 75vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 90vh;
+}
+
+#pickerSection {
+    width: 25vw;
+    min-width: 100px;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.pickerTitle {
+    text-align: center;
+    height: 10%;
+    margin-top: 15%;
+    color: #EDE9E3;
+}
+
+.pickerItems {
+    width: 80%;
+    height: 80%;
+    margin: 20px 0;
+    background-color: #2B3E50;
+}
+
+.choices {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 100px;
+    width: 65%;
+    height: 50%;
+    margin: 25% auto;
+    text-align: center;
+}
+
+.choiceBtn {
+    background-color: white;
+    text-align: center;
+    border-radius: 50%;
+    padding: 3px 8px;
+    transition-duration: .25s;
+}
+
+.choiceBtnActive {
+    background-color: rgb(192, 191, 191);
+    text-align: center;
+    border-radius: 50%;
+    padding: 3px 8px;
+    transform: scale(.85);
+    transition-duration: .25s;
+}
+
+.choiceBtn:hover {
+    cursor: pointer;
+}
+
+.choiceBtnActive:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
